@@ -143,12 +143,12 @@
 	filter:"alpha(opacity=100)"; -ms-filter:"alpha(opacity=100)"; /* old ie */
 }
 .mCSB_scrollTools .mCSB_draggerRail{
-	background:#323232; /* rgba fallback */
+	background:#f2f2f2; /* rgba fallback */
 	background:rgba(50,50,50,1);
 	filter:"alpha(opacity=100)"; -ms-filter:"alpha(opacity=100)"; /* old ie */
 }
 .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
-	background:#e61736; /* rgba fallback */
+	background:#d7d7d7; /* rgba fallback */
 	background:rgba(230,23,54,1);
 	filter:"alpha(opacity=100)"; -ms-filter:"alpha(opacity=100)"; /* old ie */
 }
