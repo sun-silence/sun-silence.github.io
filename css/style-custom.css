@@ -25,16 +25,16 @@ body {
 	-webkit-font-smoothing: subpixel-antialiased;
 	-webkit-text-size-adjust: 100%;	
 	cursor:default;
-  background:#323232;
+  background:#fffffff;
   overflow:hidden;
 }
 
 body::-webkit-scrollbar-corner { 
-  background-color:#323232; 
+  background-color:#ffffff; 
 }
 
 body::-webkit-scrollbar-track { 
-  background-color:#323232; 
+  background-color:#ffffff; 
 }
 
 body::-webkit-scrollbar {
