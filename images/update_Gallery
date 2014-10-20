@@ -1,0 +1,45 @@
+#!/bin/bash
+#此脚本用来 DIY ROM 用
+#制作者：陈云
+#写于2014年3月 窝窝
+#写于2014年4月 深圳语信公司
+#写于2014年6月 深圳语信公司
+#写于2014年7月 深圳云雀公司
+PATH=/bin:/sbin:/usr/bin:usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin:~/yun
+export PATH
+rm list
+echo '<ul class="items--small">' >> list
+cd small
+# for i in *.png; do
+# 	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../list
+# done
+# if [ ! -f "*.jpg" ]; then
+for i in *.jpg; do
+	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../list
+done
+# fi
+
+cd -
+echo '</ul>' >> list
+echo '<ul class="items--big">' >> list
+cd big
+# if [ -f "*.png" ]; then
+# for m in *.png; do
+# 	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/big/$m\" alt=\"\" /></a></li>" >> ../list
+# done
+# fi
+
+for m in *.jpg; do
+	# echo $m
+	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/big/$m\" alt=\"\" /></a></li>" >> ../list
+	# echo "	<li class=\"item--\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../list
+done
+cd -
+echo '</ul>' >> list
+
+#开始删除原来的行
+sed -i '/\(images\|<ul\|ul>\)/d' ../index.html
+
+#开始替换里面的内容
+sed -i '/<!-- yunyun -->/r list' ../index.html
+
