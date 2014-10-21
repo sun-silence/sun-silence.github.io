@@ -5,22 +5,14 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 	<meta name="viewport" content="width=device-width" />
 	<title>笋子 振云</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="botany, services, responsive, bootstrap, free template, templatemo" />
 	<meta name="description" content="Botany Template, Services, free template, responsive bootstrap" />
+    <title>{{ page.title }}</title>
+    <meta name="description" content="">
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link href="templatemo_style.css" rel="stylesheet" type="text/css">
-
-	<!-- HTML 5 shim for IE backwards compatibility -->
-		<!-- [if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-		</script>
-		<![endif]-->
-	<!--
-	Credits
-	Equal Height Columns - http://www.hongkiat.com/blog/css-equal-height/
-	Font Awesome by Dave Gandy - http://fontawesome.io
--->
 </head>
 <body class="templatemo_flower_1">
 	<div id="main_container">
@@ -41,12 +33,18 @@
 					</nav>
 				</div>
 				<div id="right_container" class="col col-md-9 col-sm-12">
-					<div class="row">
-                    	<div class="col col-md-12">
-                        	<h2>列表<a href="#" title="hdstockphoto from cn.hdstockphoto.com" class="right_container_title"  target="_blank">s</a></h2>
-                        </div>
-                    </div>
-
+ <div id="posts-list">
+        <nav id="pl__container">
+        {% for post in site.posts %}
+          <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%Y-%m-%d" }}</span></a>
+        {% endfor %}
+        </nav>
+      </div> <!-- end #posts-list -->
+    <div id="post">
+      <div id="pjax">
+        {{ content }}
+      </div>
+    </div>
 
 				</div>
 			</div>

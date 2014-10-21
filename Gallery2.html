@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>相册</title>
+<link rel="stylesheet" href="css/demo-styles.css" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="demo-wrapper">
+	<div id="gallery-container">
+		<!-- #相册匹配行开始 -->
+		<!-- yunyun -->
+<ul class="items--small">
+	<li class="item"><a href="#"><img src="images/small/we0.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we10.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we11.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we1.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we2.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we3.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we4.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we5.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we6.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we7.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we8.jpg" alt="" /></a></li>
+	<li class="item"><a href="#"><img src="images/small/we9.jpg" alt="" /></a></li>
+</ul>
+<ul class="items--big">
+	<li class="item--big"><a href="#"><img src="images/big/we0.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we10.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we11.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we1.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we2.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we3.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we4.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we5.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we6.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we7.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we8.jpg" alt="" /></a></li>
+	<li class="item--big"><a href="#"><img src="images/big/we9.jpg" alt="" /></a></li>
+</ul>
+		<!-- 相册匹配航结束 -->
+
+		<div class="controls">
+			<br>
+
+			<span class="control icon-arrow-left" data-direction="previous">
+			</span><span class="control icon-arrow-right" data-direction="next">
+			</span><span class="grid icon-grid"></span>
+			<span class="fs-toggle icon-fullscreen"></span></div>
+	</div>
+</div>
+<!--end demo-wrapper-->
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/screenfull.min.js"></script>
+<script src="js/scripts.js"></script>
+<script>
+    $(document).ready(function(){
+      $('#gallery-container').sGallery({
+        fullScreenEnabled: true
+      });
+    });
+  </script>
+<div style="text-align:center;clear:both">
+
+</div>
+
+</body>
+
+</html>

@@ -7,39 +7,77 @@
 #写于2014年7月 深圳云雀公司
 PATH=/bin:/sbin:/usr/bin:usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin:~/yun
 export PATH
-rm list
-echo '<ul class="items--small">' >> list
-cd small
+smallfolder=small1
+listfile=list1
+bigfolder=big1
+html=Gallery1
+
+
+updatehtml(){
+echo '<ul class="items--small">' >> $listfile
+cd $smallfolder
 # for i in *.png; do
-# 	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../list
+# 	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../$listfile
 # done
 # if [ ! -f "*.jpg" ]; then
 for i in *.jpg; do
-	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../list
+	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/$smallfolder/$i\" alt=\"\" /></a></li>" >> ../$listfile
 done
 # fi
 
 cd -
-echo '</ul>' >> list
-echo '<ul class="items--big">' >> list
-cd big
+echo '</ul>' >> $listfile
+echo '<ul class="items--big">' >> $listfile
+cd $bigfolder
 # if [ -f "*.png" ]; then
 # for m in *.png; do
-# 	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/big/$m\" alt=\"\" /></a></li>" >> ../list
+# 	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/big/$m\" alt=\"\" /></a></li>" >> ../$listfile
 # done
 # fi
 
 for m in *.jpg; do
 	# echo $m
-	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/big/$m\" alt=\"\" /></a></li>" >> ../list
-	# echo "	<li class=\"item--\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../list
+	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/$bigfolder/$m\" alt=\"\" /></a></li>" >> ../$listfile
+	# echo "	<li class=\"item--\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../$listfile
 done
 cd -
-echo '</ul>' >> list
+echo '</ul>' >> $listfile
 
 #开始删除原来的行
-sed -i '/\(images\|<ul\|ul>\)/d' ../index.html
+sed -i '/\(images\|<ul\|ul>\)/d' ../$html.html
 
 #开始替换里面的内容
-sed -i '/<!-- yunyun -->/r list' ../index.html
 
+}
+
+smallfolder=small1
+listfile=list1
+bigfolder=big1
+html=Gallery1
+updatehtml
+sed -i '/<!-- yunyun -->/r list1' ../$html.html
+rm $listfile
+
+# smallfolder=small2
+# listfile=list2
+# bigfolder=big2
+# html=Gallery2
+# updatehtml
+# sed -i '/<!-- yunyun -->/r \'$listfile' ../$html.html
+# rm $listfile
+
+smallfolder=small3
+listfile=list3
+bigfolder=big3
+html=Gallery3
+updatehtml
+sed -i '/<!-- yunyun -->/r list3' ../$html.html
+rm $listfile
+
+# smallfolder=small4
+# listfile=list4
+# bigfolder=big4
+# html=Gallery4
+# updatehtml
+# sed -i '/<!-- yunyun -->/r \'$listfile' ../$html.html
+# rm $listfile
