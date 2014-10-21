@@ -58,13 +58,13 @@ updatehtml
 sed -i '/<!-- yunyun -->/r list1' ../$html.html
 rm $listfile
 
-# smallfolder=small2
-# listfile=list2
-# bigfolder=big2
-# html=Gallery2
-# updatehtml
-# sed -i '/<!-- yunyun -->/r \'$listfile' ../$html.html
-# rm $listfile
+smallfolder=small2
+listfile=list2
+bigfolder=big2
+html=Gallery2
+updatehtml
+sed -i '/<!-- yunyun -->/r list2' ../$html.html
+rm $listfile
 
 smallfolder=small3
 listfile=list3
