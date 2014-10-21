@@ -8,11 +8,11 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="botany, services, responsive, bootstrap, free template, templatemo" />
 	<meta name="description" content="Botany Template, Services, free template, responsive bootstrap" />
-    <title>{{ page.title }}</title>
+    <!-- <title>{{ page.title }}</title> -->
     <meta name="description" content="">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="templatemo_style.css" rel="stylesheet" type="text/css">
+	<link href="/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="/templatemo_style.css" rel="stylesheet" type="text/css">
 </head>
 <body class="templatemo_flower_1">
 	<div id="main_container">
@@ -20,26 +20,20 @@
 			<div class="row col-wrap">
 				<div id="left_container" class="col col-md-3 col-sm-12">
 					<div class="templatemo_logo">
-						<a  href="http://sc.chinaz.com/"><img src="images/templatemo_logo.png" alt="Botany Theme"></a>
+						<a  href="http://sc.chinaz.com/"><img src="/images/templatemo_logo.png" alt="Botany Theme"></a>
 					</div>
 					<nav id="main_nav">
 						<ul class="nav">
-							<li><a href="index.html">首页</a></li>
-							<li><a href="about.html">关于</a></li>
+							<li><a href="/index.html">首页</a></li>
+							<li><a href="/about.html">关于</a></li>
 							<li class="active"><a href="#">兴趣</a></li>
-							<li><a href="portfolio.html">照片墙</a></li>
-							<li><a href="contact.html">联系我们</a></li>
+							<li><a href="/portfolio.html">照片墙</a></li>
+							<li><a href="/contact.html">联系我们</a></li>
 						</ul>
 					</nav>
 				</div>
 				<div id="right_container" class="col col-md-9 col-sm-12">
- <div id="posts-list">
-        <nav id="pl__container">
-        {% for post in site.posts %}
-          <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%Y-%m-%d" }}</span></a>
-        {% endfor %}
-        </nav>
-      </div> <!-- end #posts-list -->
+
     <div id="post">
       <div id="pjax">
         {{ content }}
