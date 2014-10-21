@@ -1,0 +1,41 @@
+#!/bin/bash
+#此脚本用来 DIY ROM 用
+#制作者：陈云
+#写于2014年3月 窝窝
+#写于2014年4月 深圳语信公司
+#写于2014年6月 深圳语信公司
+#写于2014年7月 深圳云雀公司
+PATH=/bin:/sbin:/usr/bin:usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin:~/yun
+export PATH
+i=1
+
+#先对文章排序
+sort -r -u touch -o touch
+while myline=$(line); do
+
+	datetime=`echo $myline | awk '{print $1}'`
+	content=`echo $myline | awk '{print $2}'`
+	echo "<li>" >> webtext
+	echo "	<div class=\"number\"></div>" >> webtext
+	if test `expr $i % 2` == 0;then
+		echo "	<div class=\"time\">$datetime</div>" >> webtext
+		echo "	<div class=\"content\">" >> webtext
+           else
+		echo "	<div class=\"time_left\">$datetime</div>" >> webtext
+		echo "	<div class=\"content_left\">" >> webtext
+
+	fi
+	echo "		<pre>" >> webtext
+				echo "	<a> $content </a> " >> webtext
+	echo "		</pre>" >> webtext
+echo "	</div>" >> webtext
+echo "</li>" >> webtext
+let i=i+1
+done < touch
+#删除原来的行
+sed -i '/\(<li>\|div\|pre>\|<\/li>\|<a>\)/d' ../shijianxian.html
+#替换里面的行
+sed -i '/<!-- yunyun -->/r webtext' ../shijianxian.html
+
+
+rm webtext
