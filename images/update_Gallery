@@ -74,10 +74,10 @@ updatehtml
 sed -i '/<!-- yunyun -->/r list3' ../$html.html
 rm $listfile
 
-# smallfolder=small4
-# listfile=list4
-# bigfolder=big4
-# html=Gallery4
-# updatehtml
-# sed -i '/<!-- yunyun -->/r \'$listfile' ../$html.html
-# rm $listfile
+smallfolder=small4
+listfile=list4
+bigfolder=big4
+html=Gallery4
+updatehtml
+sed -i '/<!-- yunyun -->/r list4' ../$html.html
+rm $listfile
