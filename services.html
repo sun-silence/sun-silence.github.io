@@ -29,16 +29,19 @@ margin-right:60px
     font-size: 20px;
     letter-spacing:8px;
 }
+.list_height{
+  height: 500px;
+}
 </style>
-<article id="post__content">
+<article id="post__content" >
 	 <ul id="tags__ul" class="test_ul">
           <button class="roundedRectangle" id="js-label1" >文章列表</button>
           <button  class="roundedRectangle" id="js-label2" >笋子</button>
           <button  class="roundedRectangle" id="js-label3" >振云</button>
           <button  class="roundedRectangle" id="js-label4" >杂七杂八</button>
         </ul>
- <div id="posts-list">
-        <nav id="pl__container">
+ <div id="posts-list" >
+        <nav id="pl__container" >
         {% for post in site.posts %}
           <a class="{{ post.categories }} pl__all" href="{{ post.url }}"><span class="pl__circle"></span><span class="pl__title">{{ post.title }}</span><span class="pl__date">{{ post.date | date: "%Y-%m-%d" }}</span></a>
         {% endfor %}
