@@ -2,10 +2,41 @@
 layout: index
 title: 风之子的世界
 ---
+    <style>
+ul{
+list-style:none;
+}
+.test_ul button{
+float:left;
+margin-right:60px
+}
+.roundedRectangle{
+    height: 30px;
+    width: 80px;
+    background-color:rgba(240,240,240,0.5);
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #fff #fff #fff #fff;
+   color: #fff;
+}
 
+.roundedRectangle p{
+    margin: 0px auto;
+    padding: 20px;
+
+    text-align:center;
+    font-size: 20px;
+    letter-spacing:8px;
+}
+</style>
 <article id="post__content">
-	<h2>文章列表</h2><br>
-	<br>
+	 <ul id="tags__ul" class="test_ul">
+          <button class="roundedRectangle" id="js-label1" >文章列表</button>
+          <button  class="roundedRectangle" id="js-label2" >笋子</button>
+          <button  class="roundedRectangle" id="js-label3" >振云</button>
+          <button  class="roundedRectangle" id="js-label4" >杂七杂八</button>
+        </ul>
  <div id="posts-list">
         <nav id="pl__container">
         {% for post in site.posts %}
@@ -14,3 +45,7 @@ title: 风之子的世界
         </nav>
       </div> <!-- end #posts-list -->
 </article> <!-- end #post__content -->
+    <script src="/js/jquery-2.0.3.min.js"></script>
+    <script src="/js/jquery.pjax.js"></script>
+    <script src="/js/nprogress.js"></script>
+    <script src="/js/script1.js"></script>

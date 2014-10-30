@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我在九月的雨中
-category: 诗歌
+category: 笋子
 ---
 
 <center><font color="#fff">

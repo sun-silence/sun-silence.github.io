@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 每一站 都有人走
-category: linux
+category: 笋子
 ---
 
 
