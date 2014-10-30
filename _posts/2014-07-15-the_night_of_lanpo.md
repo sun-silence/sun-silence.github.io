@@ -4,6 +4,7 @@ title: 夜的兰波
 category: 振云
 ---
 
+<br>
 <center><font color="#fff">
 我们这样认识很多年了<br>
 从海水还没漫过我的膝盖开始<br>
