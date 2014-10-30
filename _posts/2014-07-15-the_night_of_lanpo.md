@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 夜的兰波
-category: linux
+category: 振云
 ---
 
 <center><font color="#fff">
