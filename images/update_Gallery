@@ -14,40 +14,18 @@ html=Gallery1
 
 
 updatehtml(){
-echo '<ul class="items--small">' >> $listfile
-cd $smallfolder
-# for i in *.png; do
-# 	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../$listfile
-# done
-# if [ ! -f "*.jpg" ]; then
-for i in *.jpg; do
-	echo "	<li class=\"item\"><a href=\"#\"><img src=\"images/$smallfolder/$i\" alt=\"\" /></a></li>" >> ../$listfile
-done
-# fi
-
-cd -
-echo '</ul>' >> $listfile
-echo '<ul class="items--big">' >> $listfile
-cd $bigfolder
-# if [ -f "*.png" ]; then
-# for m in *.png; do
-# 	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/big/$m\" alt=\"\" /></a></li>" >> ../$listfile
-# done
-# fi
-
-for m in *.jpg; do
-	# echo $m
-	echo "	<li class=\"item--big\"><a href=\"#\"><img src=\"images/$bigfolder/$m\" alt=\"\" /></a></li>" >> ../$listfile
-	# echo "	<li class=\"item--\"><a href=\"#\"><img src=\"images/small/$i\" alt=\"\" /></a></li>" >> ../$listfile
-done
-cd -
-echo '</ul>' >> $listfile
-
-#开始删除原来的行
-sed -i '/\(images\|<ul\|ul>\)/d' ../$html.html
-
-#开始替换里面的内容
-
+	cd $bigfolder
+	for m in *.jpg; do
+	echo "        <li>" >> ../$listfile
+	echo "         	<div class=\"img_block\">" >> ../$listfile
+	echo "     		<img src=\"images/$bigfolder/$m\" />" >> ../$listfile
+	echo "                  	<a href=\"#\" rel=\"lightbox[plants]\" title=\"测试标题\" class=\"zoom\">放大</a>"  >> ../$listfile
+	echo "          	</div>" >> ../$listfile
+	echo "            	<h3>TITLE</h3>" >> ../$listfile
+	echo "            	<p>简介文字</p>" >> ../$listfile
+	echo "        </li>" >> ../$listfile
+	done
+	cd ../
 }
 
 smallfolder=small1
