@@ -4,7 +4,6 @@ title: 我在九月的雨中
 category: 笋子
 ---
 
-<br>
 <center><font color="#fff">
 我在九月的雨中<br>
 弄湿了一只鞋子<br>
