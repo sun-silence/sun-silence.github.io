@@ -16,7 +16,7 @@ while myline=$(line); do
 	datetime=`echo $myline | awk '{print $1}'`
 	content=`echo $myline | awk '{print $2}'`
 	echo "<li>" >> webtext
-	echo "	<div class=\"number\"></div>" >> webtext
+	echo "	<div class=\"number\" align=\"center\" ><img src=\"images/version_dot.png\" /></div>" >> webtext
 	if test `expr $i % 2` == 0;then
 		echo "	<div class=\"time\">$datetime</div>" >> webtext
 		echo "	<div class=\"content\">" >> webtext
