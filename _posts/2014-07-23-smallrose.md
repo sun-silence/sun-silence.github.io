@@ -4,7 +4,6 @@ title: 小玫瑰
 category: 振云
 ---
 
-<br>
 <center><font color="#fff">
 桥下有一个推车卖花的 <br>
 我花了一斤肉加两斤土豆的钱买下它 <br>

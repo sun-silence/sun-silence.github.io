@@ -4,7 +4,6 @@ title: 晚风
 category: 振云
 ---
 
-<br>
 <center><font color="#fff">
 今晚有诗诞生，你说 <br>
 你送我时，闪闪发光 <br>

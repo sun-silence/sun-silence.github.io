@@ -4,7 +4,6 @@ title: HAVE YOU LOVED A STONE
 category: 振云
 ---
 
-<br>
 <center><font color="#fff">
 你爱过一块石头吗？ <br>
 在一幅油画里 <br>
