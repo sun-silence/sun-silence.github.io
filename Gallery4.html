@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".zoom,.ilike").hide();
+
+	$(".zoom").each(function(){//遍历所有对象
+	var src=$(this).siblings("img").attr("src");
+		$(this).attr({href:src});
+	});
+
+	$("#nav li").click(function(){
+		$("#nav a").removeClass("hover");
+		$(this).find("a").addClass("hover");
+	});
+
+	$("#waterfall li").mouseover(function(){
+		$(this).addClass("hover");
+		$(this).find(".zoom,.ilike").show();
+	});
+
+	$("#waterfall li").mouseout(function(){
+		$(this).removeClass("hover");
+		$(this).find(".zoom,.ilike").hide();
+	});
+});
+</script>
+</head>
+
+<body>
+<div id="nav">
+	<a href="#" id="logo" class="float"></a>
+    <ul>
+    	<li><a href="Gallery1.html">我们</a></li>
+      <li><a href="Gallery2.html" >在路上</a></li>
+      <li><a href="Gallery3.html" > 家人</a></li>
+      <li><a href="Gallery4.html" class="hover">你们</a></li>
+    </ul>
+    <br />
+</div>
+<div id="main">
+	<ul id="waterfall">
+    	<!-- yunyun -->
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend0.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="淑华" class="zoom">放大</a>
+          	</div>
+            	<h3>淑华</h3>
+            	<p>2014-05 毕业照</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend10.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="坩埚" class="zoom">放大</a>
+          	</div>
+            	<h3>坩埚</h3>
+            	<p>也不知道他在笑什么</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend11.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="老板" class="zoom">放大</a>
+          	</div>
+            	<h3>小朱</h3>
+            	<p>2010年，岳中502</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend12.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="小朱" class="zoom">放大</a>
+          	</div>
+            	<h3>小朱</h3>
+            	<p>2010年，君山，摘辣椒</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend13.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="1024" class="zoom">放大</a>
+          	</div>
+            	<h3>1024</h3>
+            	<p>这张感觉很不错</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend14.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="1024" class="zoom">放大</a>
+          	</div>
+            	<h3>1024</h3>
+            	<p>吹陶笛</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend15.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend16.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="瘫哥" class="zoom">放大</a>
+          	</div>
+            	<h3>李奇</h3>
+            	<p>瘫哥，男，有主。</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend17.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="小红" class="zoom">放大</a>
+          	</div>
+            	<h3>小红</h3>
+            	<p>2014年5月-大学毕业</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend18.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>吴烨</h3>
+            	<p>剪刀手不解释</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend19.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend1.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend20.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend21.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend22.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="鸟屎和丽姐" class="zoom">放大</a>
+          	</div>
+            	<h3>乌龟和李姐</h3>
+            	<p>上海外滩，2013年5月实习拍的</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend23.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="鸟屎和丽姐" class="zoom">放大</a>
+          	</div>
+            	<h3>乌龟和李姐</h3>
+            	<p>2014年5月，难得见他们牵一次手</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend2.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend3.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend4.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend5.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend6.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="大学室友" class="zoom">放大</a>
+          	</div>
+            	<h3>大学室友</h3>
+            	<p>李胖子，乌龟，小峥子，前两天我们喝了4件啤酒</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend7.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="坩埚和李奇" class="zoom">放大</a>
+          	</div>
+            	<h3>瘫哥和坩埚</h3>
+            	<p>韶山～ 这张照片太赞了！</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend8.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+        <li>
+         	<div class="img_block">
+     		<img src="images/big4/friend9.jpg" />
+                  	<a href="#" rel="lightbox[plants]" title="测试标题" class="zoom">放大</a>
+          	</div>
+            	<h3>TITLE</h3>
+            	<p>简介文字</p>
+        </li>
+
+
+    </ul>
+    <br />
+<div style="visibility:hidden" id=loading class=loading><p><img src="images/loading.gif"><IMG src="images/load.gif"></p></div>
+
+</div>
+<script src="js/lightbox.js"></script>
+<script src="js/jquery.masonry.min.js"></script>
+<script>
+  $(function(){
+
+    var $waterfall = $('#waterfall');
+
+    $waterfall.masonry({
+      columnWidth: 230
+    });
+
+  });
+</script>
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+</div>
+</body>
+</html>
