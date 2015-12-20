@@ -123,13 +123,8 @@
       </li>
     {% endif %}
     {% if site.weibo-share %}
-      <li class="rrssb-vk">
-        <a href="http://service.weibo.com/share/share.php?url={{site.url}}{{site.baseurl}}{{page.url}}&amp;title=分享一篇文章:《{{page.title}}》来自:向笋子的个人网站(www.xiangsunzi.com)"  class="popup">
-          <span class="rrssb-icon">
-          </span>
-          <span class="rrssb-text">weibo</span>
-        </a>
-      </li>
+      <li><a href="http://service.weibo.com/share/share.php?url={{site.url}}{{site.baseurl}}{{page.url}}&amp;title=分享一篇文章:《{{page.title}}》来自:向笋子的个人网站(www.xiangsunzi.com)" >
+        <img src="{{site.baseurl}}/img/web-app/weibo.ico" alt=""></a></li>
     {% endif %}
     {% if site.qzone-share %}
       <script type="text/javascript">
@@ -143,8 +138,8 @@
           site:'向笋子的个人网站',/*分享来源 如：腾讯网(可选)*/
           pics:'', /*分享图片的路径(可选)*/
           style:'102',
-          width:145,
-          height:30
+          width:63,
+          height:24
           };
           var s = [];
           for(var i in p){
@@ -153,7 +148,7 @@
           document.write(['<a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank">分享</a>'].join(''));
           })();
       </script>
-    <script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
+      <script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
     {% endif %}
     {% if site.friend-share %}
       <li class="rrssb-vk">
