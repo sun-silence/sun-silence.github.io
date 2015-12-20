@@ -1,0 +1,27 @@
+
+<!-- Latest Post Preview Start -->
+
+<section id="{{ page.section-type }}" class="blog">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1" style="background: rgba(0,0,0,0.20);width: 50%;text-align: -webkit-left; margin-top: 20%;float:right;border: 1px solid #ccc;-moz-border-radius: 20px;-webkit-border-radius: 20px;border-radius: 20px; padding: 2em;">
+
+        {{ page.content | markdownify }}
+
+        {% assign post = site.posts.first %}
+        <h4> <strong> {{ post.date | date_to_string }} </strong>
+          <small>. {{ post.category }} .</small>
+          <strong> <a href="{{site.baseurl}}{{ post.url }}">{{post.title}} </a> </strong>
+        </h4>
+
+        {{ post.content | truncatewords: site.post-preview-words | strip_html | markdownify }}
+
+        <h4><a href="{{site.baseurl}}/blog/">更多.......</a></h4>
+
+      </div>
+    </div>
+    <center>
+  <a href="#{{ site.pages_list['时间轴'] }}" class="page-scroll" style="border: solid 2px #e5e6e7;background-image: url('{{site.baseurl}}/img/dark-arrow.svg');  border-color: inherit; background-color: rgba(64,64,64,0.05);  width: 5em; height: 5em; line-height: 4.5em;  padding: 0;  background-position: center center;  background-repeat: no-repeat;  text-indent: -10em;  overflow: hidden;border-radius: 3.5em;display: inline-block;">More</a></center>
+</section>
+
+<!-- Latest Post Preview End -->
+  

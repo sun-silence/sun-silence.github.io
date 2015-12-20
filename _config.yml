@@ -1,42 +1,185 @@
 
+# Site settings
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-safe: true
-lsi: false
-markdown: redcarpet
-excerpt_separator: "\n\n"
-encoding: UTF-8
+# NB! Set your site's url, otherwise stuff will break :)
 
-filter: 'category'
+url: "www.xiangsunzi.com"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: /wedding
+
+# Google tracking id to track your visitors
+
+google-tracking-id: "UA-35880426-4"
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "cn"
+author: "Percy"
+title: "{ 梦中的婚礼 }"
+description: "婚礼使用的webpage"
+keywords: "smith, jones, personal, jekyll, theme"
+favicon: "/img/favicon.ico"
+404-img: "/img/labtocat.png"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/love.ico"
+
+background-img: "../img/intro-bg.jpg"
+background-img1: "../img/one.jpg"
+background-img2: "../img/two.jpg"
+background-img3: "../img/three.jpg"
+background-img4: "../img/four.jpg"
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "在我们在一起刚好1500天的时候<br>我们 <font color='#FF0000'><strong>结婚</strong></font>  了！<br>一路走来，那么多岁月与点滴时刻<br>多谢你们的一路陪伴"
+  - text: "Still, still to hear her tender-taken breath,<br>And so live ever–or else swoon to death."
+
+
+me-img: "/img/jetpacktocat.png"
+# <font color="#FF0000">www.divcss5.com 红色</font> 
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: False
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+weibo-share: True
+friend-share: False
+qzone-share: True
+qq-share: True
+disqus-shortname: "panossakkos"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/marry.jpg"
+    date: "2016年1月3日"
+    description: "结婚啦"
+  - image: "/img/timeline/papre.jpg"
+    date: "2015年2月19日"
+    description: "订婚"
+  - image: "/img/timeline/love.jpg"
+    date: "2011年11月24日"
+    description: "在一起"
+  - image: "/img/timeline/meet.jpg"
+    date: "2011年9月17日"
+    description: "相遇"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/begin.jpg"
+
+###########
+# Contact #
+###########
+
+email: "xiangsunzi@163.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "空间"
+    url: "http://user.qzone.qq.com/1360370242"
+    image: "/img/web-app/qzone.ico"
+  - title: "微博"
+    url: "http://weibo.com/u/2072316797"
+    image: "/img/web-app/weibo.ico"
+  # - title: "github"
+  #   url: "https://github.com/sun-silence"
+  #   image: "/img/web-app/github.ico"
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  我们: 'about'
+  博客: 'latest-post'
+  时间轴: 'timeline'
+  联系我: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
 
 sass:
   style: compressed
 
-######## for 3-Jekyll  end themes
-
-redcarpet:
-  extensions: [no_intra_emphasis, fenced_code_blocks, autolink, tables, with_toc_data, highlight, quote]
-
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
-
-title : 向榫子
-author :
-  name : 笋子
-  email : xiangsunzi@163.com
-  github : https://github.com/sun-silence
-  weibo : http://weibo.com/p/1005052072316797
+gems:
+  - jekyll-paginate
 
