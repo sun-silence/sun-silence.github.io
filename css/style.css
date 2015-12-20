@@ -451,8 +451,7 @@
 	/* Box */
 
 		.box {
-			background: rgba(255, 255, 255, 0.47);
-			color: #39454b;
+			background: rgba(33, 33, 33, 0.33);
 			border:1px solid #ccc;  
             /*margin:2em auto 1em;  
             max-width:650px;  
@@ -573,10 +572,18 @@
 
 				.main.style3.primary {
 					background: url('images/overlay.png'), url('../images/intro.jpg');
+					background-size: 256px 256px, cover;
+					background-attachment: fixed, fixed;
+					background-position: top left, bottom center;
+					background-repeat: repeat, no-repeat;
 				}
 			
 				.main.style3.secondary {
 					background: url('images/overlay.png'), url('../images/intro.jpg');
+					background-size: 256px 256px, cover;
+					background-attachment: fixed, fixed;
+					background-position: top left, bottom center;
+					background-repeat: repeat, no-repeat;
 
 				}
 
