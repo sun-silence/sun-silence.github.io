@@ -1,9 +1,9 @@
 
 <!-- Latest Post Preview Start -->
 
-<section id="{{ page.section-type }}" class="blog">
+<section id="{{ page.section-type }}" class="blog" onresize="getsize()">
     <div class="row">
-      <div class="col-md-10 col-md-offset-1" style="background: rgba(0,0,0,0.20);width: 50%;text-align: -webkit-left; margin-top: 20%;float:right;border: 1px solid #ccc;-moz-border-radius: 20px;-webkit-border-radius: 20px;border-radius: 20px; padding: 2em;">
+      <div id="blog_hint" class="col-md-10 col-md-offset-1">
 
         {{ page.content | markdownify }}
 
@@ -24,4 +24,3 @@
 </section>
 
 <!-- Latest Post Preview End -->
-  
