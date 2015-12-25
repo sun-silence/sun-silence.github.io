@@ -23,7 +23,7 @@ function getsize () {
         document.getElementById("latest-post").className="mobile_blog"
         document.getElementById("timeline").className="mobile_timeline"
         document.getElementById("blog_hint").className="mobile_blog_hint"
-        document.getElementById("about_hint").style.width="60%"
+        document.getElementById("about_hint").style.width="65%"
     };
 }
 window.onresize = function(){

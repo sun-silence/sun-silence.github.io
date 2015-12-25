@@ -9,7 +9,7 @@
 .mobile_about{
     background: url(/img/2.jpg);
     background-size: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -17,16 +17,16 @@
 .mobile_blog{
     background: url(/img/3.jpg);
     background-size: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
 }
 .mobile_blog_hint{
     background:rgba(0,0,0,0.3);
-    width: 100%;
+    width: 80%;
     text-align: -webkit-left;
-    margin-top: 70%;
+    margin-top: 10%;
     float:right;
     border: 1px solid #ccc;
     -moz-border-radius: 20px;
@@ -57,7 +57,7 @@
 .mobile_timeline{
     background: url(/img/4.jpg);
     background-size: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-repeat: no-repeat;
     -webkit-background-size: cover;
