@@ -60,7 +60,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "我们结婚啦！"
-  - text: "笋子&振云"
+  - text: "笋子 振云"
 
 
 me-img: "/img/jetpacktocat.png"
