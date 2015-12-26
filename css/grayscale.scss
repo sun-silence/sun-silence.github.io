@@ -15,7 +15,7 @@ body {
     height: 100%;
     font-family: "Lora","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: $light;
-    background-color: $dark;
+    background-color: #FBFBFB;
 }
 
 html {
@@ -30,7 +30,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
     font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -56,7 +55,8 @@ div {
 }
 
 a {
-    color: $primary;
+    color: #39c;
+    font-weight:100;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -190,7 +190,7 @@ a {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: -webkit-left; 
+    text-align: -webkit-left;
     text-shadow:#996600 5px 5px 10px;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -232,7 +232,7 @@ a {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: -webkit-right; 
+    text-align: -webkit-right;
     text-shadow:#996600 5px 5px 10px;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -275,13 +275,11 @@ a {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: -webkit-left; 
-    text-shadow:#222 5px 5px 10px;
-    color: $intro-text-color;
-    {% if site.background-img %}
-    background: url({{ site.background-img4 }}) no-repeat bottom center scroll;
-    {% endif %}
-    background-color: $header-background-color;
+    text-align: -webkit-left;
+    /*text-shadow:#666 1px 1px 2px;*/
+    color: #666;
+    background: #FBFBFB;
+    background-color: #FBFBFB;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -318,7 +316,7 @@ a {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: -webkit-left; 
+    text-align: -webkit-left;
     text-shadow:#222 5px 5px 10px;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -361,7 +359,7 @@ a {
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: -webkit-right; 
+    text-align: -webkit-right;
     text-shadow:#996600 5px 5px 10px;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -401,14 +399,14 @@ a {
             }
         }
     }
-}  
+}
 
 .contact {
     display: table;
     width: 100%;
     height: auto;
     padding: 100px 0;
-    text-align: -webkit-left; 
+    text-align: -webkit-left;
     text-shadow:#222 5px 5px 10px;
     color: $intro-text-color;
     {% if site.background-img %}
@@ -491,7 +489,7 @@ a {
     {% if site.background-img %}
     background: url({{ site.background-img }}) no-repeat bottom center scroll;
     {% endif %}
-    
+
     @media(min-width:767px) {
         margin-top: 125px;
         padding-top: 125px;
