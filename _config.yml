@@ -12,7 +12,7 @@ url: "www.xiangsunzi.com"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: 
+baseurl:
 
 # Google tracking id to track your visitors
 
@@ -59,12 +59,12 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "在我们在一起刚好1500天的时候<br>我们 <font color='#FF0000'><strong>结婚</strong></font>  了！<br>一路走来，那么多岁月与点滴时刻<br>多谢你们的一路陪伴"
-  - text: "Still, still to hear her tender-taken breath,<br>And so live ever–or else swoon to death."
+  - text: "我们结婚啦！"
+  - text: "笋子&振云"
 
 
 me-img: "/img/jetpacktocat.png"
-# <font color="#FF0000">www.divcss5.com 红色</font> 
+# <font color="#FF0000">www.divcss5.com 红色</font>
 
 ################
 # Web app mode #
