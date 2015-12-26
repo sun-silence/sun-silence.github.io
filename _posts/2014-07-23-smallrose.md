@@ -4,7 +4,7 @@ title: 小玫瑰
 category: 振云
 ---
 
-<center><font color="#fff">
+<center>
 桥下有一个推车卖花的 <br>
 我花了一斤肉加两斤土豆的钱买下它 <br>
 把它安放在书桌上 <br>
@@ -38,5 +38,4 @@ category: 振云
  <br>
 2014.7 深圳 <br>
 <br>
-</font>
 </center>

@@ -4,7 +4,7 @@ title: 月台还在那儿
 category: 笋子
 ---
 
-<center><font color="#fff">
+<center>
 你走了，我回来 <br>
 月台还在那儿 <br>
 孤零零地看着 <br>
@@ -25,5 +25,4 @@ category: 笋子
 月台还在那儿 <br>
 人来人往 <br>
 <br>
-</font>
 </center>

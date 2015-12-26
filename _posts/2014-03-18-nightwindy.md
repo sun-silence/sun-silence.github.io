@@ -4,7 +4,7 @@ title: 晚风
 category: 振云
 ---
 
-<center><font color="#fff">
+<center>
 今晚有诗诞生，你说 <br>
 你送我时，闪闪发光 <br>
 一块温暖的鹅卵石慢慢老去 <br>
@@ -23,5 +23,4 @@ category: 振云
 像是，什么也没失去 <br>
 或者相反 <br>
 <br>
-</font>
 </center>

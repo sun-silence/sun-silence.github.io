@@ -4,7 +4,7 @@ title: 我在九月的雨中
 category: 笋子
 ---
 
-<center><font color="#fff">
+<center>
 我在九月的雨中<br>
 弄湿了一只鞋子<br>
 和另一只鞋子<br>
@@ -23,5 +23,4 @@ category: 笋子
 搁浅在红树林的海边<br>
 <br>
 <br>
-</font>
 </center>

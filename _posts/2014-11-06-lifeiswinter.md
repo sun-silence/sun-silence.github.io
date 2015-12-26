@@ -6,7 +6,7 @@ category: 笋子
 tags: [ '小诗' ]
 ---
 
-<center><font color="#fff">
+<center>
 火车的意象总是指向远方 <br>
 南方之南 <br>
 避开了一场严寒 <br>
@@ -22,5 +22,4 @@ tags: [ '小诗' ]
 这生命 <br>
 便再也无法保管 <br>
 <br>
-</font>
 </center>

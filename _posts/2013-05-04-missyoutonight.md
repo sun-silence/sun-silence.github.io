@@ -4,7 +4,7 @@ title: 今夜，我只想你
 category: 笋子
 ---
 
-<center><font color="#fff">
+<center>
 k9004是个温和的孩子 <br>
 白色帘子有淡淡的底纹，和浅浅的落寞 <br>
 窗外，夜色微凉 <br>
@@ -16,5 +16,4 @@ k9004是个温和的孩子 <br>
 隐隐的背景里，唯有自己干涩的眼睛 <br>
 那么清晰 <br>
 <br>
-</font>
 </center>

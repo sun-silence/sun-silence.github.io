@@ -4,7 +4,7 @@ title: 归去来兮
 category: 笋子
 ---
 
-<center><font color="#fff">
+<center>
 我闭上眼 <br>
 窗外光影飞速流动 <br>
 22，21，20……5岁在远处招手 <br>
@@ -29,5 +29,4 @@ category: 笋子
 我昏昏欲睡的大脑，残留着夕阳的余温 <br>
 镶嵌在盲人的夜里 <br>
 <br>
-</font>
 </center>

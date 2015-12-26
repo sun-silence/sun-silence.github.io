@@ -4,7 +4,7 @@ title: 没有人像你
 category: 笋子
 ---
 
-<center><font color="#fff">
+<center>
 走了遥远的路 <br>
 看多了人和风景 <br>
 那么多人里，总有相似身影 <br>
@@ -16,5 +16,4 @@ category: 笋子
  <br>
 ps：冻结的木头后/有燃烧的马尾 <br>
 <br>
-</font>
 </center>

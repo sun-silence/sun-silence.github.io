@@ -4,7 +4,7 @@ title: HAVE YOU LOVED A STONE
 category: 振云
 ---
 
-<center><font color="#fff">
+<center>
 你爱过一块石头吗？ <br>
 在一幅油画里 <br>
 莫奈给你的光和影显得稠乱而忧伤 <br>
@@ -35,5 +35,4 @@ category: 振云
 献给四个人 <br>
 2014.6.30上沙 <br>
 <br>
-</font>
 </center>

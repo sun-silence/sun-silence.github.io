@@ -4,7 +4,7 @@ title: 夜的兰波
 category: 振云
 ---
 
-<center><font color="#fff">
+<center>
 我们这样认识很多年了<br>
 从海水还没漫过我的膝盖开始<br>
 我就站在岩石上踮起脚<br>
@@ -38,5 +38,4 @@ category: 振云
 于是，就这样很多年了<br>
 <br>
 2014年7月 深圳<br>
-</font>
 </center>
