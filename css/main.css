@@ -495,7 +495,7 @@ pre,
 .highlight {
   overflow: auto;
   margin: 20px 0;
-  padding: 15px;
+  padding: 0;
   font-size: 13px;
   color: #4d4d4c;
   background: #f7f7f7;
@@ -519,10 +519,13 @@ pre code {
   background: none;
   text-shadow: none;
 }
+.highlight {
+  border-radius: 1px;
+}
 .highlight pre {
   border: none;
   margin: 0;
-  padding: 1px;
+  padding: 10px 0;
 }
 .highlight table {
   margin: 0;
@@ -555,9 +558,16 @@ pre code {
   border-bottom-color: #4d4d4c;
 }
 .highlight .gutter pre {
-  color: #666;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #869194;
   text-align: right;
-  padding-right: 20px;
+  background-color: #eff2f3;
+}
+.highlight .code pre {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #f7f7f7;
 }
 .highlight .line {
   height: 20px;
@@ -1325,20 +1335,24 @@ pre .javascript .function {
   font-size: 13px;
 }
 .post-nav {
-  overflow: hidden;
+  display: table;
   margin-top: 60px;
-  padding: 10px;
-  white-space: nowrap;
+  width: 100%;
   border-top: 1px solid #eee;
 }
+.post-nav-divider {
+  display: table-cell;
+  width: 10%;
+}
 .post-nav-item {
-  display: inline-block;
-  width: 50%;
-  white-space: normal;
+  display: table-cell;
+  padding: 10px 0 0 0;
+  width: 45%;
+  vertical-align: top;
 }
 .post-nav-item a {
   position: relative;
-  display: inline-block;
+  display: block;
   line-height: 25px;
   font-size: 14px;
   color: #555;
@@ -1351,11 +1365,24 @@ pre .javascript .function {
 .post-nav-item a:active {
   top: 2px;
 }
-.post-nav-item a i {
+.post-nav-item .fa {
+  position: absolute;
+  top: 8px;
+  left: 0;
   font-size: 12px;
+}
+.post-nav-next a {
+  padding-left: 15px;
 }
 .post-nav-prev {
   text-align: right;
+}
+.post-nav-prev a {
+  padding-right: 15px;
+}
+.post-nav-prev .fa {
+  right: 0;
+  left: auto;
 }
 .posts-expand .post-eof {
   display: block;
@@ -1464,6 +1491,7 @@ pre .javascript .function {
 .site-author-image {
   display: block;
   margin: 0 auto;
+  border-radius: 50%;
   padding: 2px;
   max-width: 120px;
   height: auto;
@@ -1549,7 +1577,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #13a4db;
+  background: #3c449f;
 }
 .links-of-blogroll {
   font-size: 13px;

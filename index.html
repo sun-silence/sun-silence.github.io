@@ -63,9 +63,9 @@
 
 
 
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -77,7 +77,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
 
 
 
@@ -93,9 +93,10 @@
 
 
 
-<script type="text/javascript" id="hexo.configuration">
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    root: '/',
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"always"},
     fancybox: true,
@@ -103,14 +104,19 @@
     duoshuo: {
       userId: 9468200,
       author: '若言'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
 </script>
 
 
 
-
-  <link rel="canonical" href="http://xiangsunzi.com/"/>
 
   <title> 笋子的个人世界 </title>
 </head>
@@ -217,39 +223,9 @@
       
 
       
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="st-search-show-outputs">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
     </ul>
   
 
-  
-    <div class="site-search">
-      
-  <form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
-</form>
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'V2oVsC8dZyt79h73Aoxt','2.0.0');
-</script>
-
-
-
-    </div>
   
 </nav>
 
@@ -265,7 +241,6 @@
     
       
 
-  
   
 
   
@@ -371,6 +346,7 @@
       
     </div>
 
+
     <footer class="post-footer">
       
 
@@ -387,7 +363,6 @@
     
       
 
-  
   
 
   
@@ -406,8 +381,8 @@
             
               
                 
-                <a class="post-title-link" href="/2016/10/04/2013-04-28-sea/" itemprop="url">
-                  你见过那一片墨色的海
+                <a class="post-title-link" href="/2016/10/04/2013-05-04-missyoutonight/" itemprop="url">
+                  今夜，我只想你
                 </a>
               
             
@@ -450,8 +425,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/10/04/2013-04-28-sea/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/04/2013-04-28-sea/" itemprop="commentsCount"></span>
+                <a href="/2016/10/04/2013-05-04-missyoutonight/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/04/2013-05-04-missyoutonight/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -476,10 +451,7 @@
       
         
           
-            <p>你见过那一片墨色的海<br>有持续燃烧的冰块<br>寒鸦都躲在喉咙里取暖<br>盲人的夜<br>谁还倔强醒着<br>带着遗世的寂寥和苍白</p>
-<p>你见过那一片墨色的海<br>有无法混杂的悲哀<br>那一季人人自危，带着盔甲行色匆匆<br>谁还站在水的中央，清风明月<br>款款相待</p>
-<p>你见过那一片墨色的海<br>有虔诚送葬的云霭<br>山河辽远<br>白鸽孤独地起落<br>人们理所当然的死<br>理所当然的活</p>
-<p>ps:如果一定要一个理由：有时候会被自己冻伤，失去能量。抱歉，我没事。</p>
+            <p>k9004是个温和的孩子<br>白色帘子有淡淡的底纹，和浅浅的落寞<br>窗外，夜色微凉<br>斑斓的霓虹花了眼<br>这夜，淹没了月光，水<br>淹没了荒野，墓地<br>（你说萤火是希望，我说墓地是死亡——离别之后，开始之前，轮回总是一个模样）<br>光影飞快地溜走<br>隐隐的背景里，唯有自己干涩的眼睛<br>那么清晰</p>
 
           
         
@@ -493,6 +465,7 @@
     <div>
       
     </div>
+
 
     <footer class="post-footer">
       
@@ -511,6 +484,127 @@
       
 
   
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/04/2013-04-29-stillthere/" itemprop="url">
+                  月台还在那儿
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-04T10:12:56+08:00" content="2016-10-04">
+              2016-10-04
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/诗/" itemprop="url" rel="index">
+                    <span itemprop="name">诗</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/04/2013-04-29-stillthere/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/04/2013-04-29-stillthere/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>你走了，我回来<br>月台还在那儿<br>孤零零地看着<br>我走了，他回来<br>洒几滴泪，丢几个空落落的瓶子</p>
+<p>有的人走了，有的人再也没回来<br>月台还在那儿<br>不发一言<br>在不为人知的角落慢慢积攒尘埃<br>裂一道缝，收容青苔<br>和光影转换的阴霾</p>
+<p>总有人走，总有人来<br>月台还在那儿<br>不迎不送<br>恍惚的相识，真实的遗忘<br>月台还在那儿<br>人来人往</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
   
 
   
@@ -615,125 +709,6 @@
       
     </div>
 
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/04/2013-05-04-missyoutonight/" itemprop="url">
-                  今夜，我只想你
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-04T10:12:56+08:00" content="2016-10-04">
-              2016-10-04
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/诗/" itemprop="url" rel="index">
-                    <span itemprop="name">诗</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/10/04/2013-05-04-missyoutonight/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/04/2013-05-04-missyoutonight/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>k9004是个温和的孩子<br>白色帘子有淡淡的底纹，和浅浅的落寞<br>窗外，夜色微凉<br>斑斓的霓虹花了眼<br>这夜，淹没了月光，水<br>淹没了荒野，墓地<br>（你说萤火是希望，我说墓地是死亡——离别之后，开始之前，轮回总是一个模样）<br>光影飞快地溜走<br>隐隐的背景里，唯有自己干涩的眼睛<br>那么清晰</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
 
     <footer class="post-footer">
       
@@ -751,7 +726,6 @@
     
       
 
-  
   
 
   
@@ -857,6 +831,7 @@
       
     </div>
 
+
     <footer class="post-footer">
       
 
@@ -873,7 +848,6 @@
     
       
 
-  
   
 
   
@@ -977,6 +951,7 @@
       
     </div>
 
+
     <footer class="post-footer">
       
 
@@ -994,6 +969,126 @@
       
 
   
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/10/04/2013-07-06-song/" itemprop="url">
+                  披发长歌
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-10-04T10:12:56+08:00" content="2016-10-04">
+              2016-10-04
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/诗/" itemprop="url" rel="index">
+                    <span itemprop="name">诗</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/10/04/2013-07-06-song/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/04/2013-07-06-song/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>静得发冷的晚上<br>黑暗从墓地升起<br>长发在风里飞舞<br>流落的人失了心，痛苦的人盲了眼<br>眺望的人被一丝一缕地割伤<br>长发布满了云天</p>
+<p>被遗忘的时间总是格外漫长<br>哑巴死去，又醒来<br>喉咙里长满头发<br>没有人看清黑暗的脸<br>没有人听过哑巴的歌<br>冷的发寒的晚上<br>哑巴从黑暗里坠落<br>没有人听见，墓地夜夜的悲歌</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
   
 
   
@@ -1099,126 +1194,6 @@
       
     </div>
 
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/10/04/2013-07-06-song/" itemprop="url">
-                  披发长歌
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-04T10:12:56+08:00" content="2016-10-04">
-              2016-10-04
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/诗/" itemprop="url" rel="index">
-                    <span itemprop="name">诗</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/10/04/2013-07-06-song/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/04/2013-07-06-song/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>静得发冷的晚上<br>黑暗从墓地升起<br>长发在风里飞舞<br>流落的人失了心，痛苦的人盲了眼<br>眺望的人被一丝一缕地割伤<br>长发布满了云天</p>
-<p>被遗忘的时间总是格外漫长<br>哑巴死去，又醒来<br>喉咙里长满头发<br>没有人看清黑暗的脸<br>没有人听过哑巴的歌<br>冷的发寒的晚上<br>哑巴从黑暗里坠落<br>没有人听见，墓地夜夜的悲歌</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
 
     <footer class="post-footer">
       
@@ -1236,7 +1211,6 @@
     
       
 
-  
   
 
   
@@ -1342,6 +1316,7 @@
       
     </div>
 
+
     <footer class="post-footer">
       
 
@@ -1358,7 +1333,6 @@
     
       
 
-  
   
 
   
@@ -1461,6 +1435,7 @@
     <div>
       
     </div>
+
 
     <footer class="post-footer">
       
@@ -1666,28 +1641,28 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
 
 
 
   
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
 
 
 
@@ -1712,8 +1687,10 @@
 
   
     
-    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js?v=5.1.0"></script>
+    
   
 
 
@@ -1729,6 +1706,8 @@
   
 
   
+  
+
 
 </body>
 </html>

@@ -63,9 +63,9 @@
 
 
 
-<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
   <meta name="keywords" content="Hexo, NexT" />
@@ -77,7 +77,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
 
 
 
@@ -93,9 +93,10 @@
 
 
 
-<script type="text/javascript" id="hexo.configuration">
+<script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
+    root: '/',
     scheme: 'Pisces',
     sidebar: {"position":"left","display":"always"},
     fancybox: true,
@@ -103,14 +104,19 @@
     duoshuo: {
       userId: 9468200,
       author: '若言'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
     }
   };
 </script>
 
 
 
-
-  <link rel="canonical" href="http://xiangsunzi.com/archives/page/2/"/>
 
   <title> 归档 | 笋子的个人世界 </title>
 </head>
@@ -215,39 +221,9 @@
       
 
       
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="st-search-show-outputs">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
     </ul>
   
 
-  
-    <div class="site-search">
-      
-  <form class="site-search-form">
-  <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
-</form>
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'V2oVsC8dZyt79h73Aoxt','2.0.0');
-</script>
-
-
-
-    </div>
   
 </nav>
 
@@ -293,9 +269,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/10/04/2013-11-21-three/" itemprop="url">
+            <a class="post-title-link" href="/2016/10/04/2013-11-18-daydeath/" itemprop="url">
               
-                <span itemprop="name">三不三的</span>
+                <span itemprop="name">一天一次的死亡</span>
               
             </a>
         
@@ -330,9 +306,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/10/04/2013-11-18-daydeath/" itemprop="url">
+            <a class="post-title-link" href="/2016/10/04/2013-11-21-three/" itemprop="url">
               
-                <span itemprop="name">一天一次的死亡</span>
+                <span itemprop="name">三不三的</span>
               
             </a>
         
@@ -478,9 +454,9 @@
 
       <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/10/04/2013-04-29-stillthere/" itemprop="url">
+            <a class="post-title-link" href="/2016/10/04/2013-04-28-sea/" itemprop="url">
               
-                <span itemprop="name">月台还在那儿</span>
+                <span itemprop="name">你见过那一片墨色的海</span>
               
             </a>
         
@@ -840,9 +816,9 @@
   
 
 
-  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
 
-  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
 
 
 
@@ -850,9 +826,9 @@
   
 
 
-  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
 
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
 
 
 
@@ -867,7 +843,7 @@
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
 
 
 
@@ -892,8 +868,10 @@
 
   
     
-    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
-    <script src="/js/src/hook-duoshuo.js"></script>
+      
+      <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+      <script src="/js/src/hook-duoshuo.js?v=5.1.0"></script>
+    
   
 
 
@@ -909,6 +887,8 @@
   
 
   
+  
+
 
 </body>
 </html>
