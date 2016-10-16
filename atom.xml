@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>生活与小怪兽</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://xiangsunzi.com/"/>
+  <updated>2014-11-06T05:14:00.000Z</updated>
+  <id>http://xiangsunzi.com/</id>
+  
+  <author>
+    <name>笋子</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>生命本身就是一个冬天</title>
+    <link href="http://xiangsunzi.com/2014/11/06/2014-11-06-lifeiswinter/"/>
+    <id>http://xiangsunzi.com/2014/11/06/2014-11-06-lifeiswinter/</id>
+    <published>2014-11-06T05:14:00.000Z</published>
+    <updated>2014-11-06T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>火车的意象总是指向远方<br>南方之南<br>避开了一场严寒<br>却遭遇更冷酷的严寒<br>落在人一生中的雪<br>我们并不能完全看见</p>
+<a id="more"></a>
+<p>冬天一年一年地弄冷一个人<br>从一块骨头到无处逃窜的灵魂<br>大雪纷纷扬扬<br>下在正经历的路上<br>当岁月像荒野般敞开<br>这生命<br>便再也无法保管</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;火车的意象总是指向远方&lt;br&gt;南方之南&lt;br&gt;避开了一场严寒&lt;br&gt;却遭遇更冷酷的严寒&lt;br&gt;落在人一生中的雪&lt;br&gt;我们并不能完全看见&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+      <category term="小诗" scheme="http://xiangsunzi.com/tags/%E5%B0%8F%E8%AF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>你说海水是圆的</title>
+    <link href="http://xiangsunzi.com/2014/10/27/2014-10-27-roundsea/"/>
+    <id>http://xiangsunzi.com/2014/10/27/2014-10-27-roundsea/</id>
+    <published>2014-10-27T05:14:00.000Z</published>
+    <updated>2014-10-27T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>夜晚安于寂静<br>人们在休憩中得到短暂喘息<br>却总有灵魂无法安宁<br>南方之南<br>无心播种又荒废耕耘<br>一切都有迹可循</p>
+<a id="more"></a>
+<p>贝壳、钱币、岩石、沙粒<br>3000年或者更多<br>沉默之语会刻在哪里<br>写下来，然后被忘记<br>像被供奉的烟火<br>失去原有意义<br>语言，爱情，生命</p>
+<p>海浪永不停息<br>如同绵延愤怒和疾病<br>穿过细胞的缝隙<br>缓慢侵蚀吞没身体<br>死亡与生俱来，孤独生无所依<br>我的悲伤是无处盛放的河流<br>你说海水是圆的</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;夜晚安于寂静&lt;br&gt;人们在休憩中得到短暂喘息&lt;br&gt;却总有灵魂无法安宁&lt;br&gt;南方之南&lt;br&gt;无心播种又荒废耕耘&lt;br&gt;一切都有迹可循&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>markdown语法练习</title>
+    <link href="http://xiangsunzi.com/2014/10/23/2014-10-23-markdown/"/>
+    <id>http://xiangsunzi.com/2014/10/23/2014-10-23-markdown/</id>
+    <published>2014-10-23T05:14:00.000Z</published>
+    <updated>2014-10-23T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><a id="more"></a>
+<h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><p><strong>四级标题</strong></p>
+<ul>
+<li><p>列表1</p>
+</li>
+<li><p>列表2</p>
+</li>
+<li><p>列表3</p>
+</li>
+</ul>
+<blockquote>
+<p>索引字段</p>
+</blockquote>
+<p>1 <em>mm</em></p>
+<p>2 <strong>mm</strong></p>
+<p>3 <strong><em>dmm</em></strong></p>
+<p><strong>xiaomm</strong></p>
+<ol>
+<li><p>mm</p>
+</li>
+<li><p>xmm</p>
+</li>
+<li><p>dmm</p>
+</li>
+</ol>
+<p><a href="http://sun-silence.github.io/" target="_blank" rel="external">生活与小怪兽</a></p>
+<p><img src="/images/templatemo_tn_3.jpg" alt="mmmmmm"></p>
+<table>
+<thead>
+<tr>
+<th>title</th>
+<th style="text-align:center">test</th>
+<th style="text-align:right">cat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>meme</td>
+<td style="text-align:center">meme</td>
+<td style="text-align:right">meme</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>meme</th>
+<th>meme</th>
+<th>meme</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>meme</td>
+<td>meme</td>
+<td>meme</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>dog</th>
+<th>bird</th>
+<th>cat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>foo</td>
+<td>foo</td>
+<td>foo</td>
+</tr>
+<tr>
+<td>bar</td>
+<td>bar</td>
+<td>bar</td>
+</tr>
+<tr>
+<td>baz</td>
+<td>baz</td>
+<td>baz</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerlink&quot; title=&quot;一级标题&quot;&gt;&lt;/a&gt;一级标题&lt;/h1&gt;&lt;h2 id=&quot;二级标题&quot;&gt;&lt;a href=&quot;#二级标题&quot; class=&quot;headerlink&quot; title=&quot;二级标题&quot;&gt;&lt;/a&gt;二级标题&lt;/h2&gt;
+    
+    </summary>
+    
+      <category term="杂七杂八" scheme="http://xiangsunzi.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+    
+      <category term="markdown" scheme="http://xiangsunzi.com/tags/markdown/"/>
+    
+      <category term="语法" scheme="http://xiangsunzi.com/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我在九月的雨中</title>
+    <link href="http://xiangsunzi.com/2014/09/15/2014-09-15-i_am_in_sep_rain/"/>
+    <id>http://xiangsunzi.com/2014/09/15/2014-09-15-i_am_in_sep_rain/</id>
+    <published>2014-09-15T05:14:00.000Z</published>
+    <updated>2014-09-15T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我在九月的雨中<br>弄湿了一只鞋子<br>和另一只鞋子<br>以及一袭乳色裙摆<br>你问我什么时候回家<br>雨就又大了起来</p>
+<a id="more"></a>
+<p>冲洗中的世界<br>蒙着雾色的恍惚<br>倒影在街道的灯盏<br>是岁月燃皱的衣衫<br>青菜，肉，米饭<br>你陈述豆子和豆子的语言</p>
+<p>一只孤单的空着肚子的饭盒<br>搁浅在红树林的海边</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我在九月的雨中&lt;br&gt;弄湿了一只鞋子&lt;br&gt;和另一只鞋子&lt;br&gt;以及一袭乳色裙摆&lt;br&gt;你问我什么时候回家&lt;br&gt;雨就又大了起来&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>归去来兮</title>
+    <link href="http://xiangsunzi.com/2014/09/05/2014-09-05-backretrun/"/>
+    <id>http://xiangsunzi.com/2014/09/05/2014-09-05-backretrun/</id>
+    <published>2014-09-05T05:14:00.000Z</published>
+    <updated>2014-09-05T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我闭上眼<br>窗外光影飞速流动<br>22，21，20……5岁在远处招手<br>朝着我来时的方向跑去<br>我试图跟在她身后<br>困倦而犹疑的脚步<br>带着路途的尘灰与油腻</p>
+ <a id="more"></a>
+<p>远行轨道上不安跳动着<br>躁动的花火，在六尺之间<br>墓地一般死寂的车厢与铺位<br>你不在这<br>不在这栏杆墙壁床被<br>不在这铿锵撞击与哧哧风声中<br>不在这任何一处，这世界里</p>
+<p>有蟑螂爬过，蛇虫鼠蚁<br>在墙角在身侧在记忆在梦里<br>在每个焦灼的瞬息<br>贫乏虚弱荒芜飘忽沉默的夜<br>或土地<br>我昏昏欲睡的大脑，残留着夕阳的余温<br>镶嵌在盲人的夜里</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我闭上眼&lt;br&gt;窗外光影飞速流动&lt;br&gt;22，21，20……5岁在远处招手&lt;br&gt;朝着我来时的方向跑去&lt;br&gt;我试图跟在她身后&lt;br&gt;困倦而犹疑的脚步&lt;br&gt;带着路途的尘灰与油腻&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>小玫瑰</title>
+    <link href="http://xiangsunzi.com/2014/07/23/2014-07-23-smallrose/"/>
+    <id>http://xiangsunzi.com/2014/07/23/2014-07-23-smallrose/</id>
+    <published>2014-07-23T05:14:00.000Z</published>
+    <updated>2014-07-23T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>桥下有一个推车卖花的<br>我花了一斤肉加两斤土豆的钱买下它<br>把它安放在书桌上<br>这时候<br>我念诗，你就听着<br>你读书，我就听着</p>
+ <a id="more"></a>
+<p>夜晚回去的时候<br>满盆都是<br>你的焦虑和你的责怨<br>开着星点一样的色彩<br>你，美丽得像黄昏的绸带</p>
+<p>我们的生活过得如此平静<br>你是木头，我是马尾<br>偶尔掉落在瓷砖上的饭碗<br>像雨水打开的碎花裙<br>一层又一层的缓慢铺上了点渐变的光线</p>
+<p>我不说你也知道<br>你不说我也不问<br>我们在丰厚的食物里加上各种调料<br>在雨水充沛的城市收集瓶瓶罐罐<br>我们爱半杯牛奶的味道<br>也爱一盆小玫瑰的味道</p>
+<p>在人间繁杂的困境里<br>我们买了一盆玫瑰<br>一盆人间的土壤<br>这时候，我念诗，你就听着</p>
+<p>2014.7 深圳</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;桥下有一个推车卖花的&lt;br&gt;我花了一斤肉加两斤土豆的钱买下它&lt;br&gt;把它安放在书桌上&lt;br&gt;这时候&lt;br&gt;我念诗，你就听着&lt;br&gt;你读书，我就听着&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="LG的诗" scheme="http://xiangsunzi.com/categories/LG%E7%9A%84%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>夜的兰波</title>
+    <link href="http://xiangsunzi.com/2014/07/15/2014-07-15-the_night_of_lanpo/"/>
+    <id>http://xiangsunzi.com/2014/07/15/2014-07-15-the_night_of_lanpo/</id>
+    <published>2014-07-15T05:14:00.000Z</published>
+    <updated>2014-07-15T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们这样认识很多年了<br>从海水还没漫过我的膝盖开始<br>我就站在岩石上踮起脚<br>画画和写字<br>写下两行诗句<br>画下消瘦的你</p>
+<a id="more"></a>
+<p>我们这样相爱很多年了<br>从远古到来世<br>从壁画碎裂到梵高摊开一张画布<br>我们这样静静相爱着<br>无论你是否存在<br>无论我们是否在午后相遇</p>
+<p>我们这样流浪很多年了<br>我们捡取柴火，收拾食盐和胡椒<br>你源源不断的病痛<br>是长在我月亮上的花朵<br>在沥青铺满的道路上，在渐渐延伸的铁轨上<br>远去或者回来<br>我都不再说话</p>
+<p>我们就这样很多年了<br>我们不再需要诗歌或者歌曲<br>我们不再需要莫奈或者羽毛球<br>我们的书籍像一口干涸的水井<br>在很长的一段时间里<br>我们开始平静的享受这一切<br>像是一首散落开来的《梦中的婚礼》<br>而每个街道都开始涂抹上了《荷塘》一样的光线和色泽<br>于是，就这样很多年了</p>
+<p>2014年7月 深圳</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们这样认识很多年了&lt;br&gt;从海水还没漫过我的膝盖开始&lt;br&gt;我就站在岩石上踮起脚&lt;br&gt;画画和写字&lt;br&gt;写下两行诗句&lt;br&gt;画下消瘦的你&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="LG的诗" scheme="http://xiangsunzi.com/categories/LG%E7%9A%84%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>HAVE YOU LOVED A STONE</title>
+    <link href="http://xiangsunzi.com/2014/06/30/2014-06-30-haveyouloveastone/"/>
+    <id>http://xiangsunzi.com/2014/06/30/2014-06-30-haveyouloveastone/</id>
+    <published>2014-06-30T05:14:00.000Z</published>
+    <updated>2014-06-30T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>你爱过一块石头吗？<br>在一幅油画里<br>莫奈给你的光和影显得稠乱而忧伤<br>我相信，你是爱过的<br>有一块石头一样的男孩<br>在你面前，沉入傍晚的荷塘</p>
+ <a id="more"></a>
+<p>你年轻的时候爱过吗？<br>在微露的湿透的裤脚时光里<br>你从田地里回来<br>画上一个姑娘，一顶帽子和弯曲的太阳<br>敲碎两个鸡蛋，抹上蛋清</p>
+<p>你可否爱过一粒沙尘，一条昏沉的路<br>在你开始年迈的时候<br>抱上吉他，带上帽子<br>唱歌给欢乐而寂寞的人群<br>你的喉咙干哑，眼睛明亮</p>
+<p>你曾经爱过一片风吗？<br>像无数被雨水激起的涟漪<br>你看着他，忧伤，欢乐和苦痛<br>你看着他闪亮，暗淡和熄灭<br>像一条渐渐干涸的溪流<br>一不小心，你就走过了他<br>走过了最美丽的岁月</p>
+<p>献给四个人<br>2014.6.30上沙</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你爱过一块石头吗？&lt;br&gt;在一幅油画里&lt;br&gt;莫奈给你的光和影显得稠乱而忧伤&lt;br&gt;我相信，你是爱过的&lt;br&gt;有一块石头一样的男孩&lt;br&gt;在你面前，沉入傍晚的荷塘&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="LG的诗" scheme="http://xiangsunzi.com/categories/LG%E7%9A%84%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一碗悲伤的米饭</title>
+    <link href="http://xiangsunzi.com/2014/06/24/2014-06-24-asorrow/"/>
+    <id>http://xiangsunzi.com/2014/06/24/2014-06-24-asorrow/</id>
+    <published>2014-06-24T05:14:00.000Z</published>
+    <updated>2014-06-24T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在你的注视下<br>黄昏睡过去，岩石开始转动<br>你辗转半个江南跟着我<br>像花藤在烛光灭去之前<br><a id="more"></a><br>渐渐爬上一棵开始腐朽的树<br>开满鲜花，沾满露水<br>我的内心充满愧疚和仇恨<br>一碗悲伤的米饭在人间<br>你做出来，呈递给黎明<br>而我无法动弹，在人间的工作里<br>死去半截的开端<br>你期待长满蛀虫的缝隙<br>风能扇出几声笑<br>像是永恒的爱意</p>
+<p>2014.6 深圳福田</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在你的注视下&lt;br&gt;黄昏睡过去，岩石开始转动&lt;br&gt;你辗转半个江南跟着我&lt;br&gt;像花藤在烛光灭去之前&lt;br&gt;
+    
+    </summary>
+    
+      <category term="LG的诗" scheme="http://xiangsunzi.com/categories/LG%E7%9A%84%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>每一站 都有人走</title>
+    <link href="http://xiangsunzi.com/2014/06/15/2014-06-15-everywhere/"/>
+    <id>http://xiangsunzi.com/2014/06/15/2014-06-15-everywhere/</id>
+    <published>2014-06-15T05:14:00.000Z</published>
+    <updated>2014-06-15T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="show-content"><br>          <p>离殇是喝不完的五块一瓶抑或更便宜的酒是半宿KTV里莫名的嘶喊是酒酣情醉的泪眼，道不尽的眷念……六月的聚散年年如故18节车厢所能承受的，远远不够寻亲的妻女，务工的农民，涌向社会的学生……有气无力的夜晚杂乱，拥堵两个小孩和妈妈的一个位置一个犯人和两个警察的旅途人群东倒西歪、喋喋不休每一个，都是流萤般迷离的故事</p><br><p>夜深沉。这尽头是夜，是黎明，是南方之南（每一站，都有人走）</p><br><p>PS：渡尽劫波兄弟在，相逢一笑泯恩仇。——有人说，你遇见所有的人，最终都会变成你自己。于是</p><br><br>        </div>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;div class=&quot;show-content&quot;&gt;&lt;br&gt;          &lt;p&gt;离殇是喝不完的五块一瓶抑或更便宜的酒是半宿KTV里莫名的嘶喊是酒酣情醉的泪眼，道不尽的眷念……六月的聚散年年如故18节车厢所能承受的，远远不够寻亲的妻女，务工的农民，涌向社会的学生……有气无力的
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我的怀念，在你忘却的边缘</title>
+    <link href="http://xiangsunzi.com/2014/05/19/2014-05-19-miss/"/>
+    <id>http://xiangsunzi.com/2014/05/19/2014-05-19-miss/</id>
+    <published>2014-05-19T05:14:00.000Z</published>
+    <updated>2014-05-19T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>醒得太早，一个五月的凌晨<br>但回到睡梦中又为时已晚<br>有人说夜太寂寥，有人说夜太短<br>我想起那些行走在年少的不停夜晚</p>
+<a id="more"></a>
+<p>骇人的故事开始，星光闪耀里未完成的诗<br>国旗下消失的顽石，和仿佛永远不识的字<br>或许咣当的年月，总有神经与癫子<br>那个黑白颠倒的假日，那些漫长守候及停驻<br>那夜灯火不熄的城池，那条单程的风之路</p>
+<p>人时已尽人世长<br>我迷失的双眼将如何（永不能）回望</p>
+<p>ps：有些往事，你赋予它简单明朗，经年留恋总是不悔的坦荡荡；有些往事，盘根错节到深沉，斜阳巷陌，当时只道寻常，而今费尽思量。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;醒得太早，一个五月的凌晨&lt;br&gt;但回到睡梦中又为时已晚&lt;br&gt;有人说夜太寂寥，有人说夜太短&lt;br&gt;我想起那些行走在年少的不停夜晚&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>噢生活，请原谅我的无知无畏</title>
+    <link href="http://xiangsunzi.com/2014/03/25/2014-03-25-oh_life/"/>
+    <id>http://xiangsunzi.com/2014/03/25/2014-03-25-oh_life/</id>
+    <published>2014-03-25T05:14:00.000Z</published>
+    <updated>2014-03-25T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>逼仄的小巷，狭长<br>人和车相互拥挤。<br>五十多平米的房间可以住五个人，<br>这样房租便宜。</p>
+<a id="more"></a>
+<p>差不多的市中心，<br>你觉得宿管1350的月租很合理。<br>结果宿管被管事的数落：<br>破房子没家具。<br>于是1280，你觉得白捡了便宜。</p>
+<p>密集的椰树村呐！<br>每天都是人来人去。<br>摆满店铺的新旧物品，<br>辗转于大街小巷。<br>总有人拾起，总被人抛弃。</p>
+<p>苍白的水泥墙贴上素雅背景；<br>冷峻的铁窗覆上乳白色帘子；<br>新鲜的时空编织新鲜的故事；<br>……<br>还有什么呢？<br>我用过家家的手忙着擦拭半新的家具；<br>恩，用了半瓶12块钱的酒精你说好贵。</p>
+<p>柜子桌椅床被，洗具厨具电器……<br>啧啧啧，原来吃喝拉撒要这么多东西，<br>还忘了买菜刀和米。<br>嘿，赶路人！<br>你也许能告诉我，<br>生存和自由是什么关系？<br>快乐或悲伤，平凡而美丽；<br>噢生活，请原谅我的无知无畏！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;逼仄的小巷，狭长&lt;br&gt;人和车相互拥挤。&lt;br&gt;五十多平米的房间可以住五个人，&lt;br&gt;这样房租便宜。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Time Files</title>
+    <link href="http://xiangsunzi.com/2014/03/19/2014-03-19-timefiles/"/>
+    <id>http://xiangsunzi.com/2014/03/19/2014-03-19-timefiles/</id>
+    <published>2014-03-19T05:14:00.000Z</published>
+    <updated>2014-03-19T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>晚钟沉寂后的阴霾和虚空<br>漫长岁月里寂静无声<br>繁华空有其表<br>生命的枯萎或停滞<br>仿佛散落在黯淡书桌上，不愿翻起的书页<br>抑或时光飞逝 </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;晚钟沉寂后的阴霾和虚空&lt;br&gt;漫长岁月里寂静无声&lt;br&gt;繁华空有其表&lt;br&gt;生命的枯萎或停滞&lt;br&gt;仿佛散落在黯淡书桌上，不愿翻起的书页&lt;br&gt;抑或时光飞逝 &lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>晚风</title>
+    <link href="http://xiangsunzi.com/2014/03/18/2014-03-18-nightwindy/"/>
+    <id>http://xiangsunzi.com/2014/03/18/2014-03-18-nightwindy/</id>
+    <published>2014-03-18T05:14:00.000Z</published>
+    <updated>2014-03-18T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今晚有诗诞生，你说<br>你送我时，闪闪发光<br>一块温暖的鹅卵石慢慢老去<br>这就是过程</p>
+<a id="more"></a>
+<p>和好友谈起往事，她的话语<br>一念唏嘘，一念长安<br>还有我们初次见面<br>树叶上铺满闪动的 星星</p>
+<p>现在我们去远方<br>去墨色的，未拉开的卷轴<br>晚风中，你睡了<br>像走进了你蓝色的绝密止境<br>而风迷乱了我的头发<br>像是，什么也没失去<br>或者相反</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今晚有诗诞生，你说&lt;br&gt;你送我时，闪闪发光&lt;br&gt;一块温暖的鹅卵石慢慢老去&lt;br&gt;这就是过程&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="LG的诗" scheme="http://xiangsunzi.com/categories/LG%E7%9A%84%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>初春四物</title>
+    <link href="http://xiangsunzi.com/2014/03/06/2014-03-06-spring/"/>
+    <id>http://xiangsunzi.com/2014/03/06/2014-03-06-spring/</id>
+    <published>2014-03-06T05:14:00.000Z</published>
+    <updated>2014-03-06T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>一口干涸的水井<br>在贫穷的北方<br>或者，安静的南方<br>渐渐熄灭的村庄</p>
+<a id="more"></a>
+<p>一把黑色的雨伞<br>在路人不闻不问的北风里<br>没有色彩和感觉<br>反复撑开和关闭<br>看不见里面<br>锈迹般般</p>
+<p>一棵暗黄的香樟<br>叶子掉落在街上<br>被踏过，碾过<br>天明才被扫起<br>冻死的甲壳虫和白蚁</p>
+<p>一个路上的行人<br>像一首美丽死去的音乐<br>像一块挖了一半的坟墓<br>像烧尽的灰烬抖落在雨水里<br>像你们曾经活生生被饿死的理想</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一口干涸的水井&lt;br&gt;在贫穷的北方&lt;br&gt;或者，安静的南方&lt;br&gt;渐渐熄灭的村庄&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="LG的诗" scheme="http://xiangsunzi.com/categories/LG%E7%9A%84%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>缺失</title>
+    <link href="http://xiangsunzi.com/2014/01/29/2014-01-29-lose/"/>
+    <id>http://xiangsunzi.com/2014/01/29/2014-01-29-lose/</id>
+    <published>2014-01-29T05:14:00.000Z</published>
+    <updated>2014-01-29T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>践踏过的野草<br>剥落的刺<br>总是朝向更幽深的山谷<br>七个心脏更远了<br>红色淹没红色<br><a id="more"></a><br>说告别吧，等待<br>那个丢弃在草丛中的女孩<br>那个遥望灯火的夜晚<br>再也不会回来</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;践踏过的野草&lt;br&gt;剥落的刺&lt;br&gt;总是朝向更幽深的山谷&lt;br&gt;七个心脏更远了&lt;br&gt;红色淹没红色&lt;br&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一见钟情（辛波斯卡）</title>
+    <link href="http://xiangsunzi.com/2014/01/18/2014-01-18-onelove/"/>
+    <id>http://xiangsunzi.com/2014/01/18/2014-01-18-onelove/</id>
+    <published>2014-01-18T05:14:00.000Z</published>
+    <updated>2014-01-18T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>他们彼此深信 　　　<br>是一股突发的热情让他俩交会。　　<br>这样的笃定是美丽的，<br>但变化无常更是美丽。</p>
+<a id="more"></a>
+<p>既然从未见过面，所以他们确定<br>彼此并无瓜葛。<br>但是听听自街道、楼梯、走廊传出的话语——<br>他俩或许擦肩而过一百万次了吧？<br>　<br>我想问他们<br>是否记不得了——<br>在旋转门<br>面对面那一刻？<br>或者在人群中喃喃说出的“对不起”？<br>或者在听筒截获的唐突的“打错了”？<br>然而我早知他们的答案。<br>是的，他们记不得了。</p>
+<p>他们会感到诧异，倘若得知 　<br>缘分已玩弄他们<br>多年。<br>　　　　<br>尚未完全做好<br>成为他们命运的准备　　 　　<br>缘分将他们推近，驱离，<br>憋住笑声　　　<br>阻挡他们的去路，<br>然后闪到一边。</p>
+<p>有一些迹象和信号存在，<br>即使他们尚无法解读。<br>也许在三年前 　　<br>或者就在上个星期二 　　　　<br>有某片叶子飘舞于<br>肩与肩之间？ 　　　　<br>有东西掉了又捡了起来？ 　　<br>天晓得，也许是那个<br>消失于童年灌木丛中的球？ 　<br>还有事前已被触摸<br>层层覆盖的<br>门把和门铃。 　　<br>检查完毕后并排放置的手提箱。 　　<br>有一晚，也许同样的梦， 　　<br>到了早晨就变得模糊。</p>
+<p>每个开始 　　<br>毕竟都只是续篇， 　<br>而充满情节的书本 　　<br>总是从一半开始看起。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;他们彼此深信 　　　&lt;br&gt;是一股突发的热情让他俩交会。　　&lt;br&gt;这样的笃定是美丽的，&lt;br&gt;但变化无常更是美丽。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="杂七杂八" scheme="http://xiangsunzi.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>三不三的</title>
+    <link href="http://xiangsunzi.com/2013/11/21/2013-11-21-three/"/>
+    <id>http://xiangsunzi.com/2013/11/21/2013-11-21-three/</id>
+    <published>2013-11-21T05:14:00.000Z</published>
+    <updated>2013-11-21T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>三不三的，我就会想起<br>那些沉入河底的日子<br>老人们都陆续走了<br>带着往事和烟斗<br>三不三浮出水面的地方<br>像夏天晚上岩院坝飘忽迷人的故事</p>
+<a id="more"></a>
+<p>三不三的，我就真的回去了<br>打着赤脚奔向机船开过的“巨浪”<br>比哪个憋气久<br>妈妈洗了衣服，爸爸拧干<br>除了百无聊赖的白虎<br>没人关心尾巴里的幸福</p>
+<p>三不三的，我就一个人回去了<br>满山遍野去找盛开的果实<br>不饥不渴<br>山河水依旧是温润如玉的样子<br>那时候时间是个慈祥优雅的老头<br>那时候大地还有一点爱我们我记得</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;三不三的，我就会想起&lt;br&gt;那些沉入河底的日子&lt;br&gt;老人们都陆续走了&lt;br&gt;带着往事和烟斗&lt;br&gt;三不三浮出水面的地方&lt;br&gt;像夏天晚上岩院坝飘忽迷人的故事&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一天一次的死亡</title>
+    <link href="http://xiangsunzi.com/2013/11/18/2013-11-18-daydeath/"/>
+    <id>http://xiangsunzi.com/2013/11/18/2013-11-18-daydeath/</id>
+    <published>2013-11-18T05:14:00.000Z</published>
+    <updated>2013-11-18T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>夜空颠倒，满天枝桠<br>摇曳着不眠的梦<br>我轻易便看见自己<br>深埋在枯草丛中<br><a id="more"></a><br>而每夜每夜，风声嘹亮<br>划破寂静的夜晚<br>我只想<br>身着黑衣醒来<br>轻披白纱下葬</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;夜空颠倒，满天枝桠&lt;br&gt;摇曳着不眠的梦&lt;br&gt;我轻易便看见自己&lt;br&gt;深埋在枯草丛中&lt;br&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一行字</title>
+    <link href="http://xiangsunzi.com/2013/08/04/2013-08-04-line/"/>
+    <id>http://xiangsunzi.com/2013/08/04/2013-08-04-line/</id>
+    <published>2013-08-04T05:14:00.000Z</published>
+    <updated>2013-08-04T05:14:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我躺在床上<br>写下一行字<br>一个小时写下一行字<br>一整个晚上写下一行字<br><a id="more"></a><br>一个季节写下一行字<br>写下一行字，然后删掉<br>像每个昼夜交替的瞬息<br>孤独，然后逝去</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我躺在床上&lt;br&gt;写下一行字&lt;br&gt;一个小时写下一行字&lt;br&gt;一整个晚上写下一行字&lt;br&gt;
+    
+    </summary>
+    
+      <category term="诗" scheme="http://xiangsunzi.com/categories/%E8%AF%97/"/>
+    
+    
+  </entry>
+  
+</feed>
